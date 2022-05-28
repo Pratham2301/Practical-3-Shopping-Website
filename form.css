@@ -1,0 +1,59 @@
+/**********************************TAGS***********************************/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/**********************************ID***********************************/
+
+#multi-vitamin-img{
+    height: 150px;
+    width: 150px;
+}
+
+/**********************************CLASS***********************************/
+
+
+.div-1{
+    /* background-color: rgb(248, 156, 197); */
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    margin: 20px;
+}
+
+.box-a{
+    /* background-color: antiquewhite; */
+    height: 25vh;
+    width: 35vw;
+    padding: 20px;
+}
+
+.box-b{
+    /* background-color: aquamarine; */
+    padding: 20px;
+    height: 25vh;
+    width: 60vw;
+    display: flex;
+    text-align: center;
+}
+
+.box-image{
+    /* background-color: blueviolet; */
+    height: 25vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box-desc{
+    /* background-color: rgb(37, 196, 12); */
+    color: rgb(12, 74, 87);
+    height: 25vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+
+}
