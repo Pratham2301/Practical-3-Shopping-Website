@@ -6,28 +6,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("nav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
 </head>
 
 <body>
 
-    <div class="nav">
-        <div class="nav1">
-            <img src="images/amazon.png" alt="" id="amazon">
-            <div class="nav-address">
-                <p>Hello</p>
-                Select Your Address
-            </div>
-            <div class="nav-search">
+    <header>
 
+
+
+        <div class="nav">
+
+            <div class="nav1">
+                <img src="images/amazon.png" alt="" id="amazon">
+            </div>
+
+            <div class="nav-address">
+                <span id="nav-hello">Hello</span>
+                <br>
+                <span id="nav-add">Select Your Address</span>
+            </div>
+
+            <div class="nav-search">
+                <input type="text" placeholder="Search" class="search-input">
+            </div>
+
+            <div class="nav2">
+                <form action="#">
+                    <label for="cars">Country</label>
+                    <select name="country" id="country">
+                        <option value="">INDIA</option>
+                        <option value="">USA</option>
+                        <option value="">DUBAI</option>
+                        <option value="">CHINA</option>
+                    </select>
+                    <br><br>
+                </form>
+                <a href="#" class="nav-anchor">Login</a>
+                <!-- <a href="#" class="nav-anchor">Login</a> -->
+                <a href="#" class="nav-anchor">Orders</a>
+                <a href="#" class="nav-anchor">Cart</a>
+                <i class="fa fa-shopping-cart" style="font-size:20px;color:white"> </i>
             </div>
         </div>
-        <div class="nav2">
-            <a href="form.html" class="nav-anchor">Login</a>
-            <!-- <a href="#" class="nav-anchor">Login</a> -->
-            <a href="#" class="nav-anchor">Orders</a>
-            <a href="#" class="nav-anchor">CART</a>
-        </div>
-    </div>
+
+    </header>
 
     <div class="main-div">
 
@@ -57,7 +96,118 @@
             </div>
         </div>
 
+        <br>
+
+        <div class="div-1">
+
+            <div class="image-1">
+                <a href="form.html"><img src="/images//myfirst-science-kit.jpg" alt="image-1"></a>
+
+            </div>
+
+
+            <div class="description-1">
+                <p>
+                    ForKids Multivitamins gummies with 10 vitamins and minerals - growth, energy, development, focus,
+                    concentration, immunity | Kids Health | Vitamin A, B, C, D with Zinc and Biotins | (30 Tablets)
+                </p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <div class="deal">
+                    Deal of the Day
+                </div>
+                <p>₹ 359 (₹ 11.97/count) ₹ 499 (28% off)</p>
+                <p>Get it by <strong>Wednesday, April 27</strong></p>
+                <p>FREE Delivery over ₹ 499 Fullfilled by Amazon</p>
+
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="div-1">
+
+            <div class="image-1">
+                <a href="form.html"><img src="/images/multivitamin-gummies.jpg" alt="image-1"></a>
+
+            </div>
+
+
+            <div class="description-1">
+                <p>
+                    ForKids Multivitamins gummies with 10 vitamins and minerals - growth, energy, development, focus,
+                    concentration, immunity | Kids Health | Vitamin A, B, C, D with Zinc and Biotins | (30 Tablets)
+                </p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <div class="deal">
+                    Deal of the Day
+                </div>
+                <p>₹ 359 (₹ 11.97/count) ₹ 499 (28% off)</p>
+                <p>Get it by <strong>Wednesday, April 27</strong></p>
+                <p>FREE Delivery over ₹ 499 Fullfilled by Amazon</p>
+
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="div-1">
+
+            <div class="image-1">
+                <a href="form.html"><img src="/images/sanghariyat.jpg" alt="image-1"></a>
+
+            </div>
+
+
+            <div class="description-1">
+                <p>
+                    ForKids Multivitamins gummies with 10 vitamins and minerals - growth, energy, development, focus,
+                    concentration, immunity | Kids Health | Vitamin A, B, C, D with Zinc and Biotins | (30 Tablets)
+                </p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <div class="deal">
+                    Deal of the Day
+                </div>
+                <p>₹ 359 (₹ 11.97/count) ₹ 499 (28% off)</p>
+                <p>Get it by <strong>Wednesday, April 27</strong></p>
+                <p>FREE Delivery over ₹ 499 Fullfilled by Amazon</p>
+
+
+            </div>
+        </div>
+
+        <br>
+        <div class="div-1">
+
+            <div class="image-1">
+                <a href="form.html"><img src="/images/laptop1.webp" alt="image-1"></a>
+
+            </div>
+
+
+            <div class="description-1">
+                <p>
+                    ForKids Multivitamins gummies with 10 vitamins and minerals - growth, energy, development, focus,
+                    concentration, immunity | Kids Health | Vitamin A, B, C, D with Zinc and Biotins | (30 Tablets)
+                </p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <div class="deal">
+                    Deal of the Day
+                </div>
+                <p>₹ 359 (₹ 11.97/count) ₹ 499 (28% off)</p>
+                <p>Get it by <strong>Wednesday, April 27</strong></p>
+                <p>FREE Delivery over ₹ 499 Fullfilled by Amazon</p>
+
+
+            </div>
+        </div>
+
+        <br>
+
     </div>
+
+
 
 </body>
 
