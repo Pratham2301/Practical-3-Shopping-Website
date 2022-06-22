@@ -1,6 +1,9 @@
 /**********************************TAGS***********************************/
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 5px;
+    /* width: 80vw; */
 }
 
 /**********************************ID***********************************/
@@ -83,8 +86,54 @@
 }
 
 
-.ratings{
-    margin: 30px;
+.div-2{
+    /* background-color: rgb(67, 199, 199); */
+    height: 20vh;
+    width: 90vw;
+    position: relative;
 }
 
+.div-2-boxes{
+    /* background-color: rgb(245, 237, 226); */
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+}
 
+.div-2-boxes:hover{
+    border: 2px solid blueviolet;
+    box-shadow: aqua;
+    cursor: pointer;
+}
+
+.div-2-sad{
+    position: absolute;
+    top:40px;
+    left:30vw;
+}
+
+.div-2-average{
+    position: absolute;
+    top:40px;
+    left:40vw;
+}
+
+.div-2-happy{
+    position: absolute;
+    top:40px;
+    left:50vw;
+}
+
+.div-3{
+    margin-top:5vh;
+    height: 50vh;
+    border: 2px solid black;
+    border-style: solid;
+    border-width: thin;
+    margin: 20px;
+}
+
+#box-3-1{
+    display: flex;
+    justify-content: space-around;
+}
