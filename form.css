@@ -15,7 +15,10 @@
 
 /**********************************CLASS***********************************/
 
-
+h1{
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
 .div-1{
     /* background-color: rgb(248, 156, 197); */
     display: flex;
@@ -135,5 +138,42 @@
 
 #box-3-1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px 500px 20px 30px;
+    font-size: larger;
+}
+
+#box-3-2{
+    padding: 20px 20px 10px 30px;
+    font-size: larger;
+}
+
+#inp-3-2{
+    height: 10vh;
+    width: 90vw;
+    font-size: larger;
+}
+
+#box-3-3{
+    padding: 20px 20px 10px 30px;
+    font-size: larger;
+}
+
+#box-3-4{
+    padding: 20px 20px 10px 30px;
+    font-size: larger;
+}
+
+#box-3-4 input{
+    font-size: large;
+    border: 0;
+    border-radius: 20px;
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(206, 220, 0);
+}
+
+#box-3-4 input:hover{
+    background-color: rgb(2, 217, 63);
+
 }
